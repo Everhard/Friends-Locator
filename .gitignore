@@ -1,0 +1,19 @@
+# Java class files
+*.class
+
+# Project properies
+*local.properties
+
+# Intellij project files
+*.iml
+.idea/
+$APP_CONFIG$/
+
+target
+
+# Logs
+logs/
+*.log
+*.gz
+
+.sonar
