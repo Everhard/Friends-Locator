@@ -12,6 +12,10 @@
 
     <context:component-scan base-package="ua.com.friendslocator.controller" />
 
+    <mvc:resources mapping="/assets/**" location="/assets/"/>
+
+    <mvc:annotation-driven/>
+
     <!-- Thymeleaf View Resolver - implementation of Spring's ViewResolver interface -->
     <bean id="viewResolver" class="org.thymeleaf.spring4.view.ThymeleafViewResolver">
         <property name="templateEngine" ref="templateEngine" />
@@ -33,5 +37,6 @@
         <property name="suffix" value=".html"/>
         <property name="templateMode" value="HTML" />
     </bean>
+
 
 </beans>
