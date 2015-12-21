@@ -9,6 +9,9 @@ import org.springframework.context.annotation.Configuration;
 import ua.com.friendslocator.dao.GroupDao;
 import ua.com.friendslocator.dao.GroupMemberDao;
 import ua.com.friendslocator.dao.LocationDao;
+import ua.com.friendslocator.entity.Group;
+import ua.com.friendslocator.entity.GroupMember;
+import ua.com.friendslocator.entity.Location;
 
 import javax.sql.DataSource;
 
@@ -29,6 +32,9 @@ public class FriendsLocatorConfig {
         ServerConfig serverConfig = new ServerConfig();
         serverConfig.setDataSource(dataSource());
         serverConfig.setName("main");
+        serverConfig.addClass(Group.class);
+        serverConfig.addClass(GroupMember.class);
+        serverConfig.addClass(Location.class);
         return  serverConfig;
     }
 

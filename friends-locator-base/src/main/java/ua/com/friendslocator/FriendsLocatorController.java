@@ -21,7 +21,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 @RestController
-@Controller
 public class FriendsLocatorController {
     @Autowired
     private StringGroupIdGenerator stringGroupIdGenerator;

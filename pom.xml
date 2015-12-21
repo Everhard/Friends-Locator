@@ -9,7 +9,6 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>friends-locator-assembly</module>
         <module>friends-locator-base</module>
         <module>friends-locator-database</module>
     </modules>
