@@ -30,14 +30,6 @@
                     <changeLogFile>liquibase/changelog.xml</changeLogFile>
                     <rollbackCount>1</rollbackCount>
                 </configuration>
-                <executions>
-                    <execution>
-                        <phase>process-resources</phase>
-                        <goals>
-                            <goal>update</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
