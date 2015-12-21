@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  padding-top: 50px;
+}
+.steps-guide h2 {
+  text-align: center;
+}
+.steps-guide p:first-of-type {
+  text-align: center;
+}
+.steps-guide p:last-of-type {
+  margin: 0 auto;
+  width: 250px;
+  text-align: justify;
+}
+.map-bg {
+  margin-bottom: 2px;
+  background: url('../images/map-bg.png') no-repeat;
+  background-size: cover;
+}
+#map-page {
+  display: none;
+}
+#map-page #friends-locator-map {
+  width: 100%;
+}
